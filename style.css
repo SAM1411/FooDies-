@@ -1,0 +1,43 @@
+body{
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(231, 79, 79);
+    text-align:center;
+    padding: 15px;
+    float:left;
+   
+    }
+    #icon{
+        font-family:cursive;
+        font-size: 20px;
+        text-align: center;
+        color: rgba(12, 175, 94, 0.555);
+    }
+    nav {
+        overflow: hidden;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav a:hover{
+        color: rgb(87, 112, 223);
+    }
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position: absolute;
+    top:25%;
+    color:#fff;
+    padding: 10px;
+}
+.banner-text-h4{
+   font-size: 26px;
+   margin-bottom: 5px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
